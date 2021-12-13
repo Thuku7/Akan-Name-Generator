@@ -13,7 +13,11 @@ let userYear =document.getElementById("year").value
 
 
 let male = document.getElementById("male")
+           
+
 let female = document.getElementById("female")
+            
+
 
 
 
@@ -37,28 +41,28 @@ if (userDay <= 0 || userDay > 31) {
   return
 } if (userMonth <= 0 || userMonth > 12) {
   alertMonth()
-}else if (male.checked == true) {
+} else if (male.checked == true) {
   var birthDay =   ( ( (CC/4) -2*CC-1) + ((5*YY/4) ) + ((26*(userMonth+1)/10)) + userDay ) % 7
-  var maleAnswer = parseInt(birthDay)
-  var akanName = maleNames[maleAnswer]
+  var answer1= parseInt(birthDay)
+  var akanName = maleNames[answer1]
 } if (akanName === undefined) {
   alertUserYear()
-}else {
+} else {
   document.getElementById("output").innerHTML = message.concat(akanName)
   document.body.style.backgroundImage = "url(https://images.unsplash.com/photo-1600562718259-5cae2c9d2235?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80)";
-}
+  }
 
  if (female.checked == true) {
   var birthDay =   ( ( (CC/4) -2*CC-1) + ((5*YY/4) ) + ((26*(userMonth+1)/10)) + userDay ) % 7
-  var femaleAnswer = parseInt(birthDay)
-  var akanName = femaleNames[femaleAnswer]
-}else {
+  var answer1 = parseInt(birthDay)
+  var akanName = femaleNames[answer1]
+} else {
   document.getElementById("output").innerHTML = message.concat(akanName)
   document.body.style.backgroundImage = "url(https://images.unsplash.com/photo-1504173010664-32509aeebb62?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=827&q=80)"
 }
 })
 
-//alert functions
+
 function alertUser() {
   alert("Enter Valid Date")
 }
