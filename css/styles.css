@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:ital,wght@0,500;1,900&family=Source+Code+Pro:ital,wght@1,500&display=swap');
+
 *{
   padding: 0;
   margin: 0;
@@ -15,6 +17,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  font-family: 'Montserrat', sans-serif;
 
   
   
