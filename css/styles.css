@@ -1,0 +1,41 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body {
+
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  
+  
+}
+
+nav {
+
+  position: absolute;
+  background-color: brown;
+  margin: -2px;
+
+}
+
+.content1 {
+  background-color: blue;
+  height: 500px;
+  width: 70vw;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#form {
+  width:35vw;
+
+}
+
+.intro {
+  width:35vw;
+}
