@@ -11,7 +11,7 @@ body {
   justify-content: center;
   align-items: center;
   position: relative;
-  background-image: url(https://images.unsplash.com/photo-1583108607572-a8c0bfc741fd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
+  background-image:linear-gradient(to bottom,rgb(0,0,0.4),rgb(0,0,0,0)), url(https://images.unsplash.com/photo-1506744038136-46273834b3fb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -25,6 +25,15 @@ body {
   width: 70vw;
   display: flex;
   justify-content: space-evenly;
+  background-color:rgb(207,246,207,.42);
+  border: 2px solid rgb(207,246,207,.42);
+  border-radius: 9px;
+
+
+
+
+  
+  
 }
 
 form {
@@ -34,7 +43,10 @@ form {
   flex-direction: column;
   align-items: center;
   justify-content:space-between;
-  background-color: crimson;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  
 
 }
 
@@ -64,3 +76,6 @@ height: 350px;
 .akanName {
   height: 150px;
 }
+
+
+
