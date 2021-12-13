@@ -19,4 +19,12 @@ function alertUser {
 
 //engaging the form
 document.getElementById("form").addEventListener("submit", function(e) {
-  e.preventDefault()
+  e.preventDefault();
+
+  let userDay = document.getElementById("day").value
+  let userMonth = document.getElementById("day").value
+  let userYear = document.getElementById("day").value
+
+  let male = document.getElementById("male").value
+  let female = document.getElementById("female").value
+  
