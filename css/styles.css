@@ -11,17 +11,16 @@ body {
   justify-content: center;
   align-items: center;
   position: relative;
+  background-image: url(https://images.unsplash.com/photo-1583108607572-a8c0bfc741fd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
   
   
 }
-
-
-
-
-
-
 .content1 {
-  background-color: blue;
+  
   height: 500px;
   width: 70vw;
   display: flex;
@@ -42,6 +41,9 @@ form {
 .intro {
   width:35vw;
   height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #input{
@@ -56,5 +58,9 @@ height: 350px;
 
 .logo {
   position: absolute;
-  margin: 1rem;
+  
+}
+
+.akanName {
+  height: 150px;
 }
