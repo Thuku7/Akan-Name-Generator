@@ -1,30 +1,3 @@
-const form = document.getElementById("form");
-
-maleNames = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
-femaleNames = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
-
-//alert prompts or user validation
-
-function alertUser {
-  alert(`Enter valid Date`)
-};
-
-function alertUser {
-  alert(`Enter valid Month`)
-};
-
-function alertUser {
-  alert(`Enter valid year`)
-};
-
-//engaging the form
-document.getElementById("form").addEventListener("submit", function(e) {
-  e.preventDefault();
-
-  let userDay = document.getElementById("day").value
-  let userMonth = document.getElementById("day").value
-  let userYear = document.getElementById("day").value
-
-  let male = document.getElementById("male").value
-  let female = document.getElementById("female").value
-  
+const form = document.getElementById("form")
+let maleNames =  ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"]
+let femaleNames =  ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"]
