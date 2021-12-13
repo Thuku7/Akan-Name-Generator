@@ -20,5 +20,12 @@ header {
   min-width: 70vw;
   min-height: 70vh;
   border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+  
 
 }
+
