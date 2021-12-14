@@ -7,12 +7,21 @@ femaleNames = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"]
 
 
 
+
+
+
+
+
 document.getElementById("form").addEventListener("submit", function(e) {
     e.preventDefault()
     
     let userDay = document.getElementById("day").value
     let userMonth = document.getElementById("month").value
     let userYear = document.getElementById("year").value
+
+    
+      
+
 
     let male = document.getElementById("male")
     let female = document.getElementById("female") 
@@ -64,3 +73,18 @@ document.getElementById("form").addEventListener("submit", function(e) {
     } 
 
 })
+
+
+function alertUser() {
+  return
+  alert("Enter Valid Date")
+}
+
+function alertUserMonth () {
+  return
+  alert("Enter Valid Month")
+}
+
+function alertUserYear () {
+  return alert("Enter Valid Year")
+}
