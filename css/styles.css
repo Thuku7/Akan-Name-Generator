@@ -78,6 +78,12 @@ margin-top: 2rem;
 
 .logo {
   position: absolute;
+  top: 2%;
+  left:2%;
+  transform: translate(-15%,15%);
+  color:white;
+  font-weight: 900;
+  font-size: 2rem;
 }
   
 
