@@ -18,6 +18,7 @@ document.getElementById("form").addEventListener("submit", function(e) {
     let userDay = document.getElementById("day").value
     let userMonth = document.getElementById("month").value
     let userYear = document.getElementById("year").value
+    let leapYear = document.getElementById("year").value
 
     
       
@@ -71,6 +72,8 @@ document.getElementById("form").addEventListener("submit", function(e) {
  }
                
     } 
+    if((leapYear % 4 == 0 && (leapYear % 100 != 0) || (leapYear % 400 == 0)))
+    alert(leapYear + "is a leap year")
 
 })
 
