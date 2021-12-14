@@ -60,6 +60,9 @@ form {
   justify-content: center;
   align-items: center;
   margin-left: 15px;
+  font-weight: 700;
+  font-size: 1.4rem;
+  margin-left: 1.5rem;
 }
 
 #input{
@@ -70,28 +73,36 @@ justify-content: space-around;
 align-items: center;
 width: 35vw;
 height: 350px;
+margin-top: 2rem;
 }
 
 .logo {
   position: absolute;
+}
   
-}
 
-.akanName {
-  height: 150px;
-}
+
 
 
 input {
-  width:6rem;
+  width:8rem;
   border-radius: 12px;
   border: none;
-  height:16px;
+  height:1.6rem;
   text-align: center;
 }
 
+
 button {
-  padding:.4rem .85rem;
+  padding:1rem;
   border: none;
-  border-radius: 12px;
+  border-radius: 14px;
+  background-color: rgb(0, 173, 181,);
 }
+
+#output {
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  color:black
+}
+

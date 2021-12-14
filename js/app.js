@@ -1,6 +1,6 @@
 const form = document.getElementById("form")
-let maleNames =  ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"]
-let femaleNames =  ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"]
+let maleNames = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"]
+let femaleNames = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"]
 
 
 document.getElementById("form").addEventListener("submit", function(e) {
@@ -49,7 +49,6 @@ if (userDay <= 0 || userDay > 31) {
   alertUserYear()
 } else {
   document.getElementById("output").innerHTML = message.concat(akanName)
-  document.body.style.backgroundImage = "url(https://images.unsplash.com/photo-1600562718259-5cae2c9d2235?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80)";
   }
 
  if (female.checked == true) {
@@ -71,6 +70,6 @@ function alertMonth() {
   alert("Enter a valid Month")
 }
 
-function alertYear() {
+function alertYear() {document.body.style.backgroundImage = "url(https://images.unsplash.com/photo-1600562718259-5cae2c9d2235?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80)";
   alert("Enter a valid Year")
 }
