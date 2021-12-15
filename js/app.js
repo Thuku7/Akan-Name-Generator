@@ -41,11 +41,11 @@ document.getElementById("form").addEventListener("submit", function(e) {
 
     
     if (userDay <= 0 || userDay > 31 ) {
-        alertUser()
+        alertUserDay()
         return
-    } if (userMonth <= 0 || userMonth > 12) {
-        alertMonth()
-    }  else if( male.checked == true) {
+      }if (userMonth <= 0 || userMonth > 12) {
+        alertUserMonth()
+    }  else if(male.checked == true) {
         var birthDay =   ( ( (CC/4) -2*CC-1) + ((5*YY/4) ) + ((26*(userMonth+1)/10)) + userDay ) % 7
         var product = parseInt(birthDay)
         var akanName = maleNames[product]
@@ -78,14 +78,14 @@ document.getElementById("form").addEventListener("submit", function(e) {
 })
 
 
-function alertUser() {
-  return
-  alert("Enter Valid Date")
+function alertUserDay() {
+  
+   return alert("Enter Valid Date")
 }
 
 function alertUserMonth () {
-  return
-  alert("Enter Valid Month")
+  
+  return alert("Enter Valid Month")
 }
 
 function alertUserYear () {

@@ -30,13 +30,7 @@ body {
   justify-content: space-evenly;
   background-color:rgb(207,246,207,.42);
   border: 2px solid rgb(207,246,207,.42);
-  border-radius: 9px;
-
-
-
-
-  
-  
+  border-radius: 9px; 
 }
 
 form {
@@ -49,9 +43,7 @@ form {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  
-
-}
+  }
 
 .intro {
   width:35vw;
@@ -87,10 +79,6 @@ margin-top: 2rem;
   font-size: 2rem;
 }
   
-
-
-
-
 input {
   width:8rem;
   border-radius: 12px;
