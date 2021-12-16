@@ -43,7 +43,7 @@ document.getElementById("form").addEventListener("submit", function(e) {
     if (userDay <= 0 || userDay > 31 ) {
         alertUserDay()
         return
-      }if((leapYear % 4 == 0 && (leapYear % 100 != 0) || (leapYear % 400 == 0)) && userMonth == 2 && userDay == 29)
+      }if((leapYear % 4 == 0 && (leapYear % 100 != 0) || (leapYear % 400 == 0)) && userMonth == 2 && userDay == 29) 
       alert(leapYear + "is a leap year")
        if (userMonth <= 0 || userMonth > 12) {
         alertUserMonth()
