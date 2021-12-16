@@ -43,7 +43,9 @@ document.getElementById("form").addEventListener("submit", function(e) {
     if (userDay <= 0 || userDay > 31 ) {
         alertUserDay()
         return
-      }if (userMonth <= 0 || userMonth > 12) {
+      }if((leapYear % 4 == 0 && (leapYear % 100 != 0) || (leapYear % 400 == 0)) && userMonth == 2 && userDay == 29)
+      alert(leapYear + "is a leap year")
+       if (userMonth <= 0 || userMonth > 12) {
         alertUserMonth()
     }  else if(male.checked == true) {
         var birthDay =   ( ( (CC/4) -2*CC-1) + ((5*YY/4) ) + ((26*(userMonth+1)/10)) + userDay ) % 7
@@ -72,8 +74,7 @@ document.getElementById("form").addEventListener("submit", function(e) {
  }
                
     } 
-    if((leapYear % 4 == 0 && (leapYear % 100 != 0) || (leapYear % 400 == 0)))
-    alert(leapYear + "is a leap year")
+    
 
 })
 
